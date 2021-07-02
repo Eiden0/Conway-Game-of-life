@@ -1,0 +1,46 @@
+#canvasParent{
+  text-align: center;
+}
+
+canvas {
+  border-radius: 12px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.item1{
+  display: flex;
+  padding: 20px;
+}
+
+.item3{
+  display: flex;
+  padding: 20px;
+}
+
+.info{
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.rules{
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+
+.header{
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 2em;
+  align-items: center;
+}

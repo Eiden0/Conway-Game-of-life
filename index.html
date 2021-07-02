@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Game of Life</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js" 
+        integrity="sha512-w1Bktzax55ZbjW5Mqjz8+mKz4KqRjEUU35Dpq/ath29yskKqIGwNIHiFNp03m/OiJWDXvdQ1/g6aV+l4PeVO7Q==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	
+	<script type="text/javascript" src="sketch.js"></script>
+</head>
+<body>
+  <header class="header">
+    Conway's Game of Life
+  </header>
+  <div class = "container">
+    <div class="item item1">
+      <section class="info">
+        The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician </br> John Horton Conway in 1970.
+        </br>
+        </br>
+        The Game of Life is turing complete.
+        </br>
+        </br>
+        The Game of Life is undecidable, which means that given an initial pattern and a later pattern, no algorithm exists that can tell whether the later pattern is ever going to appear. 
+        This is a corollary of the halting problem of a turing system: the problem of determining whether a given program will finish running or continue to run forever from an initial input.
+      </section>
+    </div>
+    <div class="item item2">
+      <div id = "canvasParent"></div>
+    </div>
+    <div class="item item3">
+      <section class="rules">
+        Rules - 
+        <ul>
+          </br>
+          <li> live cell with two or three live neighbours survives. </li>
+          </br>
+          <li> Any dead cell with three live neighbours becomes a live cell. </li>
+          </br>
+          <li>All other live cells die in the next generation. Similarly, all other dead cells stay dead. </li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
